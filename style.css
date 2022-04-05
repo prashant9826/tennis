@@ -1,15 +1,18 @@
 body {
   font-family: sans-serif;
+  background-color: beige;
 }
 .container {
   padding: 10px;
 
-  width: 34%;
+  width: 26%;
   margin: auto;
 }
 .container .input {
-  width: 79%;
+  width: 66%;
   height: 20%;
+  position: relative;
+  margin-left: 26px;
 }
 .container .btn {
   width: 50px;
@@ -17,6 +20,8 @@ body {
 }
 .container ul {
   padding: 80px;
+  padding-top: 0px;
+  padding-bottom: 13px;
 }
 .container li a {
   float: right;
@@ -37,4 +42,11 @@ body {
 .mode{
 position:absolute;
 right: 0;
+}
+#searching{
+  position:relative;
+  margin-left: 108px;
+}
+.dark-mode li a {
+  color:white;
 }
