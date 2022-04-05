@@ -1,9 +1,11 @@
 body {
   font-family: sans-serif;
   background-color: beige;
+  margin: 0%;
+  padding: 0%
 }
 .container {
-  padding: 10px;
+  padding: 10%;
 
   width: 26%;
   margin: auto;
@@ -12,16 +14,16 @@ body {
   width: 66%;
   height: 20%;
   position: relative;
-  margin-left: 26px;
+  margin-left: 4%;
 }
 .container .btn {
-  width: 50px;
-  height: 25px;
+  width: 18%;
+  height: 25%;
 }
 .container ul {
-  padding: 80px;
-  padding-top: 0px;
-  padding-bottom: 13px;
+  padding: 24%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 .container li a {
   float: right;
@@ -31,6 +33,9 @@ body {
 }
 .container #error {
   font-size: 14;
+  position: relative;
+  top:14px;
+  margin-left: 1vw;
 }
 .heading {
   text-align: center;
@@ -44,9 +49,17 @@ position:absolute;
 right: 0;
 }
 #searching{
-  position:relative;
-  margin-left: 108px;
+  position: relative;
+  margin-left: 18%;
+  width: 57%;
 }
 .dark-mode li a {
   color:white;
+}
+@media screen  and (max-width: 720px) {
+  .container{
+    padding: 10%;
+    width: 68vw;
+    margin: auto;
+  }
 }
